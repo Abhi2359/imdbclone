@@ -1,1 +1,0 @@
-import React ,{useEffec}from 'react'

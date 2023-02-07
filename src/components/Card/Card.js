@@ -25,7 +25,7 @@ const Cards = ({ movie }) => {
           style={{ textDecoration: "none", color: "white" }}
         >
           <div className="cards">
-            <img
+            <img alt=""
               className="cards__img"
               src={`https://image.tmdb.org/t/p/original${
                 movie ? movie.poster_path : ""

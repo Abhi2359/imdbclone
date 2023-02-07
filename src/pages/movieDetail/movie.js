@@ -22,7 +22,7 @@ const Movie = () => {
   return (
     <div className="movie">
       <div className="movie__intro">
-        <img
+        <img alt=''
           className="movie__backdrop"
           src={`https://image.tmdb.org/t/p/original${
             currentMovieDetail ? currentMovieDetail.backdrop_path : ""
@@ -32,7 +32,7 @@ const Movie = () => {
       <div className="movie__detail">
         <div className="movie__detailLeft">
           <div className="movie__posterBox">
-            <img
+            <img alt=""
               className="movie__poster"
               src={`https://image.tmdb.org/t/p/original${
                 currentMovieDetail ? currentMovieDetail.poster_path : ""
@@ -89,6 +89,7 @@ const Movie = () => {
           <a
             href={currentMovieDetail.homepage}
             target="_blank"
+         
             style={{ textDecoration: "none" }}
           >
             <p>
@@ -120,7 +121,7 @@ const Movie = () => {
             <>
               {company.logo_path && (
                 <span className="productionCompanyImage">
-                  <img
+                  <img alt=""
                     className="movie__productionComapany"
                     src={
                       "https://image.tmdb.org/t/p/original" + company.logo_path
