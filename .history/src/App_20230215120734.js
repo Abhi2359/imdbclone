@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route   path ="/" element ={<Home/>}></Route>
-          <Route path ="movie/:id" element ={<Movie/>}></Route>
-          <Route path ="movies/:type" element ={<MovieList/>}></Route>
+          <Route  exact path ="/" component ={<Home/>}/>
+          <Route path ="movie/:id" element ={<Movie/>}/>
+          <Route path ="movies/:type" element ={<MovieList/>}/>
           {/* <Route path ="/*" element ={<h1>Error Page</h1>}></Route> */}
         </Routes>
       </Router>
