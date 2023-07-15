@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/imdbclone/static/css/main.e45fb457.css",
-    "main.js": "/imdbclone/static/js/main.bda85bd8.js",
-    "index.html": "/imdbclone/index.html",
-    "main.e45fb457.css.map": "/imdbclone/static/css/main.e45fb457.css.map",
-    "main.bda85bd8.js.map": "/imdbclone/static/js/main.bda85bd8.js.map"
+    "main.css": "/static/css/main.e45fb457.css",
+    "main.js": "/static/js/main.bda85bd8.js",
+    "index.html": "/index.html",
+    "main.e45fb457.css.map": "/static/css/main.e45fb457.css.map",
+    "main.bda85bd8.js.map": "/static/js/main.bda85bd8.js.map"
   },
   "entrypoints": [
     "static/css/main.e45fb457.css",
